@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #72147e;
+  --secondary-color: #fcecdd;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h2,
+p {
+  font-family: "Poppins", sans-serif;
+}
