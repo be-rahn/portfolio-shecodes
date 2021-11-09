@@ -8,7 +8,7 @@
 
 /*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff (green-gray)#bfcba8 (green)#5b8a72 (nice cream)#ddffbc*****/
 body {
-  background: #ddffbc;
+  background: #bfcba8;
 }
 
 h1 {
@@ -95,7 +95,7 @@ h2 {
 
 footer {
   background: var(--branding-color);
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 20px;
   color: #464f41;
 }
