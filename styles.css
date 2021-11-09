@@ -88,9 +88,8 @@ img {
 
 .project-description p,
 h2 {
-  max-width: 80%;
+  max-width: 100%;
   display: block;
-  padding-bottom: 5px;
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
