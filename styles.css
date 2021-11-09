@@ -64,9 +64,6 @@ img {
   line-height: 2;
 }
 
-.container {
-}
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -87,14 +84,16 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.project-description {
- 
+.project-description p,
+h2 {
+  max-width: 100%;
+  display: block;
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h2,
   h3 {
     font-size: 30px;
@@ -102,6 +101,11 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 20px;
   }
 }
 @media (max-width: 700px) {
