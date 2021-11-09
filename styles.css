@@ -1,12 +1,12 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #d3e4cd;
+  --branding-color: #5b8a72;
+  --secondary-color: #bfcba8;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*****color corral (light cream) #f9f7fe*****/
+/*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff*****/
 
 .hero {
   background: var(--secondary-color);
@@ -19,7 +19,7 @@
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #464f41;
 }
 
 .hero h2 {
