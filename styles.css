@@ -41,6 +41,7 @@ img {
 .framing {
   max-width: 400px;
   max-height: 300px;
+  padding-top: 26px;
 }
 
 .hero {
@@ -67,7 +68,7 @@ img {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: #f0ece3;
+  color: #f8f9fa;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -87,8 +88,9 @@ img {
 
 .project-description p,
 h2 {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
+  padding-bottom: 5px;
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
