@@ -7,6 +7,10 @@
 }
 
 /*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff*****/
+body {
+  background: #d5eebb;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -29,6 +33,14 @@ p {
 
 img {
   box-shadow: var(--box-shadow);
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.framing {
+  max-width: 400px;
+  max-height: 300px;
 }
 
 .hero {
@@ -52,6 +64,9 @@ img {
   line-height: 2;
 }
 
+.container {
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -73,7 +88,7 @@ img {
 }
 
 .project-description {
-  padding: 120px 60px;
+ 
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
