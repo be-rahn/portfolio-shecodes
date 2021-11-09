@@ -6,9 +6,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff*****/
+/*****color corral (light cream) #f9f7fe (light gray) #d3e4cd (purple) #6c63ff (green-gray)#bfcba8 (green)#5b8a72 (nice cream)#ddffbc*****/
 body {
-  background: #d5eebb;
+  background: #ddffbc;
 }
 
 h1 {
@@ -91,6 +91,13 @@ h2 {
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
+}
+
+footer {
+  background: var(--branding-color);
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: #464f41;
 }
 
 @media (max-width: 980px) {
