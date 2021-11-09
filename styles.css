@@ -75,6 +75,9 @@ img {
 .project-description {
   padding: 120px 60px;
 }
+.project-description h2 {
+  font-family: var(--heading-font-family);
+}
 
 @media (max-width: 900px) {
   h2,
