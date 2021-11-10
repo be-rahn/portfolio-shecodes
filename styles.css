@@ -211,6 +211,9 @@ footer .contact-box p {
   h4 {
     font-size: 26px;
   }
+  .about-content h1 {
+    font-size: 38px;
+  }
 }
 @media (max-width: 700px) {
   h1 {
